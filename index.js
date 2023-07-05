@@ -13,7 +13,7 @@ AppRegistry.registerComponent('reactnexus', () => App);
 
 if (Platform.OS === 'web') {
   AppRegistry.runApplication('reactnexus', {
-    initialProps: {},
     rootTag: document.getElementById('root'),
+    initialProps: {},
   });
 }
