@@ -8,14 +8,16 @@
     "lint": "eslint .",
     "web": "webpack serve --mode=development --config webpack.config.js",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "windows": "react-native run-windows"
   },
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "^18.2.0",
     "react-native": "0.71.11",
     "react-native-macos": "^0.71.0-0",
-    "react-native-web": "^0.19.5"
+    "react-native-web": "^0.19.5",
+    "react-native-windows": "0.71.21"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -39,7 +41,8 @@
     "url-loader": "^4.1.1",
     "webpack": "^5.88.0",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
+    "webpack-dev-server": "^4.15.1",
+    "metro-config": "^0.73.10"
   },
   "jest": {
     "preset": "react-native"
