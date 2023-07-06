@@ -6455,7 +6455,7 @@ metro-cache@0.73.10:
     metro-core "0.73.10"
     rimraf "^3.0.2"
 
-metro-config@0.73.10:
+metro-config@0.73.10, metro-config@^0.73.10:
   version "0.73.10"
   resolved "https://registry.yarnpkg.com/metro-config/-/metro-config-0.73.10.tgz#a9ec3d0a1290369e3f46c467a4c4f6dd43acc223"
   integrity sha512-wIlybd1Z9I8K2KcStTiJxTB7OK529dxFgogNpKCTU/3DxkgAASqSkgXnZP6kVyqjh5EOWAKFe5U6IPic7kXDdQ==
